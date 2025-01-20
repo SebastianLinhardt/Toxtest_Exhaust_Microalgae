@@ -1,0 +1,80 @@
+Datenmanagementplan (DMP) für die Untersuchung des Wachstumsverhaltens von Mikroalgenkulturen
+
+1. Beschreibung der Datensammlung und Datentypen
+Datenquellen:
+Abgasanalyse (CSV-Dateien)
+Gasmessungen (CSV-Dateien)
+Messung des pH-Werts (manuelle Eingabe in Excel)
+OD-Werte bei 750 nm (manuelle Eingabe in Excel)
+Tägliche Bilder der Kulturen (Bilddateien im JPG- oder PNG-Format)
+Mittlere RGB-Werte (manuelle Extraktion mit ImageJ und Speicherung in Excel)
+Datenformate:
+Tabellarische Daten: CSV, Excel (.xlsx)
+Bilddaten: JPG oder PNG
+Messpunkte:
+pH-Wert: Zu Versuchsbeginn und am Ende des Experiments
+OD-Werte: Zu Beginn und am Ende des Experiments, während des Experiments für tägliche RGB-Bilder
+RGB-Werte: Dreimal täglich während der Versuchsphase
+
+2. Datenerhebung
+Datenquellen:
+Abgasanalyse: Automatische Speicherung der Daten als CSV-Datei von den Analysegeräten.
+pH-Wert und OD-Werte: Manuelle Eingabe in vorgefertigte Excel-Dateien.
+Bilddaten: Digitalkamera, Speicherung der Bilder mit standardisierten Dateinamen.
+RGB-Werte: Berechnung mithilfe von ImageJ, Ergebnisse werden in Excel erfasst.
+Protokollierung:
+Es wird ein Labortagebuch geführt, in dem alle Messvorgänge, Anomalien und Beobachtungen dokumentiert werden.
+
+3. Datenorganisation
+Ordnerstruktur:
+Hauptordner: Mikroalgen_Wachstum
+Unterordner: 01_Abgasanalyse, 02_pH_OD_Messung, 03_Bilder, 04_RGB_Werte, 05_Auswertung
+Dateinamenkonventionen:
+Bilder: YYYYMMDD_Kulturname_Konzentration.jpg (z. B. 20250119_A_platensis_50.jpg)
+Abgasdaten: Abgasanalyse_Kulturname_Datum.csv
+Gasmessungen: Gasmessung_CO2_Datum.csv
+Excel-Dateien: Experimentdaten_Mikroalgen.xlsx
+
+4. Speicherung und Sicherung
+Speicherort:
+Primärspeicher: Lokaler Laborrechner (gesicherter Zugriff).
+Sekundärspeicher: Cloud-Backup (z. B. OneDrive, Google Drive).
+Backups:
+Tägliches Backup aller Daten auf einem externen Server oder einer Festplatte.
+Zugriffsrechte:
+Zugriff nur für autorisierte Teammitglieder. Schreibrechte werden auf die Versuchsleitung beschränkt.
+
+5. Datenschutz und ethische Überlegungen
+Es werden keine personenbezogenen Daten erhoben, daher entfallen spezifische Datenschutzanforderungen.
+Die Ergebnisse sind nur wissenschaftlicher Natur und dienen der Publikation in Fachzeitschriften.
+
+6. Datenanalyse
+Tools:
+Tabellendaten: Microsoft Excel für pH- und OD-Werte.
+Bildauswertung: ImageJ zur RGB-Analyse.
+Statistische Analyse: R oder Python zur Modellierung der Wachstumsdaten.
+Protokollierung der Analysen:
+Alle Auswertungsschritte werden in Skripten dokumentiert, um die Nachvollziehbarkeit zu gewährleisten.
+
+7. Langzeitarchivierung
+Archivierungsstrategie:
+Speicherung der wichtigsten Ergebnisse und Rohdaten in einem langfristigen Datenrepositorium (z. B. Zenodo, Figshare).
+Aufbewahrungsfrist:
+Daten werden für mindestens 10 Jahre archiviert.
+Datenformate für Archivierung:
+Tabellendaten: CSV (maschinenlesbar und nachhaltig).
+Bilder: PNG (verlustfreie Kompression).
+
+8. Datenfreigabe
+Freigabe der Daten:
+Nach der Publikation der Ergebnisse werden ausgewählte Datensätze über ein öffentlich zugängliches Repositorium geteilt (z. B. Zenodo, Dryad).
+Lizenz:
+Daten werden unter der Lizenz CC BY 4.0 geteilt, sodass die Nachnutzung unter Nennung der Urheber möglich ist.
+
+9. Verantwortlichkeiten
+Versuchsleitung:
+Hauptverantwortung für die Datensammlung, -speicherung und -freigabe.
+Teammitglieder:
+Unterstützung bei der Datenerhebung und Sicherstellung der Datenintegrität.
+IT-Support:
+Sicherung der digitalen Infrastruktur und regelmäßige Backups.
