@@ -1,6 +1,5 @@
 1. Description of Data Collection and Types
 Data Sources:
-
 Exhaust Gas Analysis: CSV files
 Gas Measurements: CSV files
 pH Measurements: Manual entry into Excel
@@ -8,27 +7,24 @@ OD Values at 750 nm: Manual entry into Excel
 Daily Culture Images: Image files in JPG or PNG format
 Average RGB Values: Manually extracted using ImageJ and saved in Excel
 Data Formats:
-
 Tabular Data: CSV, Excel (.xlsx)
 Image Data: JPG or PNG
 Measurement Points:
-
 pH Values: At the start and end of the experiment
 OD Values: At the start, end, and during the experiment for daily RGB image analysis
 RGB Values: Three times daily during the experimental phase
+
 2. Data Collection
 Data Sources:
-
 Exhaust Gas Analysis: Automatically saved as CSV files by analytical devices.
 pH and OD Values: Manually entered into preformatted Excel files.
 Image Data: Captured using a digital camera, with images saved using standardized filenames.
 RGB Values: Calculated using ImageJ, with results recorded in Excel.
 Documentation:
-
 A laboratory notebook will be maintained to log all measurement activities, anomalies, and observations.
+
 3. Data Organization
 Folder Structure:
-
 Main Folder: Microalgae_Growth
 Subfolders:
 01_Exhaust_Gas_Analysis
@@ -37,60 +33,52 @@ Subfolders:
 04_RGB_Values
 05_Analysis
 File Naming Conventions:
-
 Images: YYYYMMDD_CultureName_Concentration.jpg (e.g., 20250119_A_platensis_50.jpg)
 Exhaust Gas Data: ExhaustAnalysis_CultureName_Date.csv
 Gas Measurements: GasMeasurement_CO2_Date.csv
 Excel Files: ExperimentData_Microalgae.xlsx
+
 4. Storage and Backup
 Storage Locations:
-
 Primary Storage: Local laboratory computer with secured access.
 Secondary Storage: Cloud backup (e.g., OneDrive, Google Drive).
 Backup Strategy:
-
 Daily backups of all data to an external server or hard drive.
 Access Rights:
-
 Access restricted to authorized team members.
 Write access limited to the principal investigator.
+
 5. Data Protection and Ethical Considerations
 No personal data is collected, so specific data protection requirements are not applicable.
 Results are purely scientific and intended for publication in academic journals.
+
 6. Data Analysis
 Tools:
-
 Tabular Data: Microsoft Excel for pH and OD values.
 Image Analysis: ImageJ for RGB analysis.
 Statistical Analysis: R or Python for modeling growth data.
 Analysis Documentation:
-
 All analysis steps will be documented in scripts to ensure reproducibility.
+
 7. Long-Term Archiving
 Archiving Strategy:
-
 Store key results and raw data in a long-term data repository (e.g., Zenodo, Figshare).
 Retention Period:
-
 Data will be archived for at least 10 years.
 Data Formats for Archiving:
-
 Tabular Data: CSV (machine-readable and sustainable).
 Images: PNG (lossless compression).
+
 8. Data Sharing
 Data Release:
-
 Selected datasets will be shared via a public repository (e.g., Zenodo, Dryad) after publication.
 License:
-
 Data will be shared under the CC BY 4.0 license, permitting reuse with attribution to the authors.
+
 9. Responsibilities
 Principal Investigator:
-
 Primary responsibility for data collection, storage, and sharing.
 Team Members:
-
 Assist with data collection and ensure data integrity.
 IT Support:
-
 Ensure digital infrastructure security and perform regular backups.
