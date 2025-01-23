@@ -52,7 +52,7 @@ The dataset captures controlled laboratory conditions and may not reflect microa
 
 Additional Information
 Dataset Curators
-The dataset was created by the [Research Group Name] under the supervision of [Principal Investigator].
+The dataset was created by Sebastian Linhardt (OTH AW) under the supervision of Prof. Dr.-Ing. Christoph Lindenberger (OTH AW).
 
 Licensing Information
 The dataset will be shared under the CC BY 4.0 license, enabling reuse with proper attribution.
